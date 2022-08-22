@@ -1,0 +1,117 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-top: none;
+}
+
+.title {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  border-bottom: 3px solid #012169;
+  background-color: #012169;
+  color: white;
+}
+
+.top-menu {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.language-box {
+  display: flex;
+  gap: 10px;
+}
+
+.language {
+  font-weight: 600;
+}
+
+.years-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.year {
+  border-radius: 4px;
+  margin: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #012169;
+}
+
+.active{
+  color: #009739;
+}
+
+.year-selected {
+  border-radius: 4px;
+  margin: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #009739
+}
+
+.lorem-ipsum {
+  display: flex;
+  max-width: 1300px;
+  margin-bottom: 30px;
+  text-align: justify;
+
+}
+
+.lorem-ipsum-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.brazil {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.footer {
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.facebook {
+  width: 40px;
+  height: 40px;
+}
+
+.insta {
+  width: 40px;
+  height: 40px;
+}
+
+.yt {
+  width: 40px;
+  height: 40px;
+
+}
+
+.pictures-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.picture {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
